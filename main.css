@@ -16,6 +16,7 @@ html {
 body{ 
   font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
   line-height: 1.5;
+	
 }
 h1{
   margin-bottom: 1rem;
@@ -60,29 +61,38 @@ p{
   color: #fff;
 }
 
-@media screen and (max-width:400px)
-	{
-		
-	}
-@media screen and (min-width 400px)
-	{
-		
-	}
 
+
+@media screen and (max-width: 600px)
+	{
+		wrapper
+		{
+			-webkit-column-count: 1;
+			-moz-column-count:1;
+			margin:auto;
+		}
+		
+
+	}
 @media screen and (min-width: 600px)
 	{
-		
-	}
-@media screen and (min-width: 800px)
-	{
-		
-	}
-@media screen and (min-width: 800px)
-	{
-		
+		.wrapper
+		{
+			-webkit-column-count: 2;
+			-moz-column-count:2;
+			margin:auto;
+		}
 	}
 
 @media screen and (min-width: 1024px)
 	{
+		.wrapper
+		{
+			-webkit-column-count: 3;
+			-moz-column-count:3;
+			margin:auto;
+		}
 		
+		
+
 	}

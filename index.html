@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+ <head>
+	 <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<!--
 <div class="banner"></div>
 
 <div class="wrapper">
@@ -40,26 +45,40 @@ From 800px to 1020px the picture src should be - http://placehold.it/512x512
 At 1024px the picture scr should be -  http://placehold.it/340x340
 
 The Fallback should be 600px - http://placehold.it/600x600
+
       </pre>
     </article>
   </section>
+http://placecage.com/400/400"
+
+-->
 
 
 <div class="wrapper">
 <picture>
-   <source media="(max-width: 400px)" srcset="http://placehold.it/400x400">
-	<source src="http://placehold.it/400x400">
-   <source media="(max-width: 600px)" srcset="http://placehold.it/600x600">
-	<source src="http://placehold.it/600x600">
-   <source media="(max-width: 800px)" srcset="http://placehold.it/400x400">
-	<source src="http://placehold.it/400x400">
-   <source media="(min-width: 1020px)" srcset="http://placehold.it/512x512">
-	<source src="http://placehold.it/512x512">
-   <source media="(min-width: 1024px)" srcset="http://placehold.it/600x600">
-	<source src="http://placehold.it/600x600">
-   
+	<!--When under 400px width image is 400X400-->
+   <source media="(max-width: 400px)" srcset="http://placecage.com/400/400">
+	<!--<source src="http://placehold.it/400x400">-->
+	<!--When width is between 400px and 600px image is 600X600-->
+   <source media="(max-width: 600px)" srcset="http://placebear.com/g/600/600">
+<!--	<source src="http://placehold.it/600x600">-->
+   <source media="(max-width: 800px)" srcset="http://placecage.com/400/400">
+<!--	<source src="http://placehold.it/400x400">-->
+   <source media="(max-width: 1024px)" srcset="http://fillmurray.com/512/512">
+<!--	<source src="http://placehold.it/512x512">-->
+   <source media="(min-width: 1024px)" srcset="http://baconmockup.com/340/340">
+<!--	<source src="http://placehold.it/340x340">-->
+   <img src="http://placehold.it/600X600" alt="This picture loads on non-supporting browsers.">
+   <img src="http://placehold.it/600X600" alt="This picture loads on non-supporting browsers.">
+   <img src="http://placehold.it/600X600" alt="This picture loads on non-supporting browsers.">
+   <img src="http://placehold.it/600X600" alt="This picture loads on non-supporting browsers.">
+   <img src="http://placehold.it/600X600" alt="This picture loads on non-supporting browsers.">
+   <img src="http://placehold.it/600X600" alt="This picture loads on non-supporting browsers.">
+   <img src="http://placehold.it/600X600" alt="This picture loads on non-supporting browsers.">
+   <img src="http://placehold.it/600X600" alt="This picture loads on non-supporting browsers.">
    <img src="http://placehold.it/600X600" alt="This picture loads on non-supporting browsers.">
 </picture>
+	
 	
 	
 </div>
