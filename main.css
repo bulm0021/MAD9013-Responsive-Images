@@ -59,40 +59,22 @@ p{
   background: #111;
   text-align: center;
   color: #fff;
+  clear:both;
+}
+
+li
+{
+	list-style: none;
+	float:left;
+	margin:0 auto;
+	border: none;
+}
+
+picture img
+{
+	max-width: 100%;
 }
 
 
 
-@media screen and (max-width: 600px)
-	{
-		wrapper
-		{
-			-webkit-column-count: 1;
-			-moz-column-count:1;
-			margin:auto;
-		}
-		
 
-	}
-@media screen and (min-width: 600px)
-	{
-		.wrapper
-		{
-			-webkit-column-count: 2;
-			-moz-column-count:2;
-			margin:auto;
-		}
-	}
-
-@media screen and (min-width: 1024px)
-	{
-		.wrapper
-		{
-			-webkit-column-count: 3;
-			-moz-column-count:3;
-			margin:auto;
-		}
-		
-		
-
-	}
